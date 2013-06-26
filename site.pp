@@ -7,3 +7,4 @@ include drivers
 include vim
 include vim::vimrc::setup_unless_exists
 include spotify
+include chromium
