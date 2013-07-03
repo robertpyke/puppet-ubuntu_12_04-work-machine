@@ -3,25 +3,25 @@ puppet-ubuntu_12_04-work-machine
 
 Puppet scripts to setup machine for development (Ubuntu 12.04)
 
-Install it
+install it
 -------------
 
     sudo apt-get install git-core puppet
 
-Clone it
+clone it
 ------------
 
     git clone https://github.com/robertpyke/puppet-ubuntu_12_04-work-machine.git
     cd puppet-ubuntu_12_04-work-machine
 
-Configure it
+configure it
 ------------
 
     vim site.pp
     
 Update the $user and $home variables
 
-Run it
+run it
 -----------
 
     sudo puppet apply site.pp --modulepath=./
